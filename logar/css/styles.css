@@ -10,6 +10,37 @@
     background-image: blue
   }
   
+#header{
+  display: flex;
+  position: sticky;
+  top: 0;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: black;
+}
+
+#header h2{
+  color: white;
+}
+
+#header strong{
+  color: red;
+}
+
+.menu{
+  display: flex;
+}
+
+.menu li{
+  margin-left: 4px;
+}
+
+.menu li a{
+  display: block;
+  padding: 10px;
+}
   #form {
     padding: 50px;
     background-color: rgba(0, 0, 0, 0.5);
