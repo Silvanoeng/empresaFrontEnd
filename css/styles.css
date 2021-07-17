@@ -24,20 +24,20 @@ body {
   z-index: 4;
 }
 
-.menu {
+.menu-top {
   display: flex;
 }
 
-.menu li {
+.menu-top li {
   margin-left: 4px;
 }
 
-.menu li a {
+.menu-top li a {
   display: block;
   padding: 10px;
 }
 
-a.bmenu {
+a.menu-botao {
   color: white;
   font-family: "Roboto", sans-serif;
   padding: 10px 30px;
@@ -46,14 +46,14 @@ a.bmenu {
   transition: all 0.3s ease-in-out;
 }
 
-a.bmenu:hover {
+a.menu-botao:hover {
   background-color: #f0f2f2;
   color: black;
   font-weight: bold;
 }
 
-h2 {
-  color: white;
+#logo {
+  font-family: 'Limelight', cursive;
 }
 
 #main {
@@ -64,7 +64,7 @@ h2 {
 }
 
 #banner1 {
-  background-image: url(../img/j2.jpg);
+  background-image: url(../img/baner\ 1.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -78,7 +78,7 @@ h2 {
 }
 
 #banner2 {
-  background-image: url(../img/j23.jpg);
+  background-image: url(../img/banner\ 2.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -96,7 +96,7 @@ h2 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 25px;
-  justify-content: space-around;
+  justify-content: ;
   padding-top: 100px;
   padding-bottom: 100px;
   background-image: url("../img/fundo\ imagem\ site.jpg");
@@ -106,23 +106,16 @@ h2 {
   height: 100%;
   width: 100%;
   object-fit: cover;
-  border: 5px solid #f0f2f2;
+  border: 5px solid white;
   transition: all 0.3s ease-in-out;
+  border-radius: 50px;
   z-index: 2;
 }
 
 .capa img:hover {
   transform: scale(1.05);
 }
-/* #contato{
-  display: flex;
-  justify-content: space-between;
-  color: white;
 
-  text-align: center;
-  background-color: blue;
-} */
-}
 footer {
   display: flex;
   justify-content: space-between;
