@@ -7,43 +7,12 @@
   body {
     margin: 50px;
     font-family: sans-serif;
-    background-image: blue
+    background-color: black;
   }
   
-#header{
-  display: flex;
-  position: sticky;
-  top: 0;
-  justify-content: space-between;
-  padding: 20px;
-  align-items: center;
-  flex-wrap: wrap;
-  background-color: black;
-}
-
-#header h2{
-  color: white;
-}
-
-#header strong{
-  color: red;
-}
-
-.menu{
-  display: flex;
-}
-
-.menu li{
-  margin-left: 4px;
-}
-
-.menu li a{
-  display: block;
-  padding: 10px;
-}
   #form {
     padding: 50px;
-    background-color:blue;
+    background-color: white;
     border-radius: 15px;
     max-width: 450px;
     margin: 100px auto;
@@ -57,9 +26,9 @@
   }
   
   #form h1 {
-    color: violet;
-    font-family: "Press Start 2P", cursive;
-    transition: all 0.5s ease-in-out;
+    color: black;
+    font-family: Arial, cursive;
+    /* transition: all 0.5s ease-in-out; */
     text-align: center;
     line-height: 1.5;
   }
@@ -67,7 +36,7 @@
     margin: 20px 0 0 0;
   }
   #form label {
-    color: red;
+    color: black;
     font-size: 18px;
   }
   input[type="text"],
@@ -75,7 +44,7 @@
   input[type="password"] {
     background: none;
     border: none;
-    border-bottom: 1px solid purple;
+    border-bottom: 1px solid black;
     margin-bottom: 30px;
     color: white;
     outline: none;
@@ -83,25 +52,27 @@
     font-size: 18px;
   }
   ::-webkit-input-placeholder{
-    color: rgba(255, 255, 255, 0.75);
+    color: gray;
   }
   div.maioridade {
     margin: 0 0 20px 0;
   }
-  .caixa_dados {
+  /* .caixa_dados {
     transition: all 0.5s ease-in-out;
   }
-  
+   */
   button {
+    justify-content: center;
+    text-align: center;
     padding: 15px 15px;
     margin: 0 10px 0 0;
     border-radius: 10px;
     border: none;
     background: none;
     color: white;
-    background-color: purple;
-    transition: all 0.5s ease-in-out;
+    background-color: red;
+    /* transition: all 0.5s ease-in-out; */
     font-size: 15px;
-    font-family: "Press Start 2P", cursive;
+    font-family: "Arial", cursive;
   }
   
