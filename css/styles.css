@@ -8,8 +8,8 @@
 }
 
 body {
-  background-color: #0c0b0b;
-  font-family: "Days One", sans-serif;
+  background-color: black;
+  font-family: 'Roboto', Arial, sans-serif;
 }
 
 #header {
@@ -20,15 +20,8 @@ body {
   padding: 20px;
   align-items: center;
   flex-wrap: wrap;
-  background-color: rgba(255, 68, 0, 0.5);
-}
-
-#header h2 {
-  color: white;
-}
-
-#header strong {
-  color: red;
+  background-color: black;
+  z-index: 4;
 }
 
 .menu {
@@ -46,23 +39,21 @@ body {
 
 a.bmenu {
   color: white;
-  font-family: "Manrope", sans-serif;
+  font-family: "Roboto", sans-serif;
   padding: 10px 30px;
   border-radius: 9px;
+  font-weight: bold;
   transition: all 0.3s ease-in-out;
 }
 
 a.bmenu:hover {
-  background-color: red;
+  background-color: #f0f2f2;
   color: black;
   font-weight: bold;
 }
 
-h2,
-h4 {
-  color: red;
-  font-size: 30px;
-  font-family: "Manrope", sans-serif;
+h2 {
+  color: white;
 }
 
 #main {
@@ -72,12 +63,8 @@ h4 {
   justify-content: center;
 }
 
-#banner {
+#banner1 {
   background-image: url(../img/j2.jpg);
-  /* Full height /
-  height: 100%; 
-
-  / Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -87,11 +74,10 @@ h4 {
   align-items: center;
   flex-direction: column;
   width: 100%;
-  height: calc(100vh - 80px);
-  color: white;
+  height: calc(100vh - 90px);
 }
 
-#banner1 {
+#banner2 {
   background-image: url(../img/j23.jpg);
   background-attachment: fixed;
   background-position: center;
@@ -102,49 +88,52 @@ h4 {
   align-items: center;
   flex-direction: column;
   width: 100%;
-  height: calc(100vh - 80px);
-  color: white;
+  height: calc(100vh - 90px);
 }
 
 .grupos {
   margin-top: 60px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 18px;
-  text-align: center;
-  padding-top: 250px;
+  grid-gap: 25px;
+  justify-content: space-around;
+  padding-top: 100px;
   padding-bottom: 100px;
+  background-image: url("../img/fundo\ imagem\ site.jpg");
 }
 
-.card-movie img {
-  height: 400px;
+.capa img {
+  height: 100%;
   width: 100%;
   object-fit: cover;
-  border: 1px solid lightgray;
+  border: 5px solid #f0f2f2;
   transition: all 0.3s ease-in-out;
+  z-index: 2;
 }
 
-.card-movie img:hover {
-  transform: scale(1.1);
+.capa img:hover {
+  transform: scale(1.05);
 }
+/* #contato{
+  display: flex;
+  justify-content: space-between;
+  color: white;
 
+  text-align: center;
+  background-color: blue;
+} */
+}
 footer {
   display: flex;
   justify-content: space-between;
   padding: 20px;
-  margin-top: 30px;
+  margin-top: 100px;
   align-items: center;
   flex-wrap: wrap;
-  background: rgba(255, 68, 0, 0.5);
+  background: black;
   color: white;
-}
-
-footer h3 {
-  color: white;
-}
-
-footer strong {
-  color: black;
+  text-align: center;
+  
 }
 
 @media (max-width: 689px) {
