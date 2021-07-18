@@ -9,8 +9,7 @@
   
   body {
     background-image: url(../img/j2-original.jpg);
-    background-blend-mode:overlay ;
-    background-color:#9c9c9cfc;
+    background-position: right;
     font-family: 'Roboto', sans-serif;
   }
   
@@ -73,18 +72,18 @@ main{
 }
 
 .fundo{
-    background-color: #2d2d2d;
     height: 700px;
     width: 79%;
     border-radius: 30px;
     display: flex;
     flex-direction: row;
     align-content: space-between;
-    justify-content: space-between;
-    border: 10px solid black;
+    justify-content: flex-end;
 }
 
-.box{
+.box.b,
+.box.c
+{
     background-color:#bdbdbd;
 }
 
@@ -97,9 +96,7 @@ main{
     margin-top: -36px;
     align-items: center;
     align-content: space-around;
-    border: 10px solid black;
     margin-left: 124px;
-    background-color: #acacac;
     justify-content: flex-start;
 }
 
@@ -120,17 +117,17 @@ margin-top: 13.5px;
 font-size: 28px;
 font-style: oblique;
 color: white;
-text-shadow: 4px 2px black;
+text-shadow: 2px 2px black;
 }
 
 .box-generos{
     display: flex;
     width: 233px;
     height: 100px;
-    background-color: #3434344a;
+    background-color:#bdbdbd;
     border-radius: 6px;
     margin-top: 44px;
-    margin-right: 16px;
+    margin-right: 2px;
     border: 2px solid rgb(83, 83, 83);
     flex-direction: column;
     align-content: center;
@@ -180,7 +177,7 @@ text-shadow: 4px 2px black;
   color: rgb(255 255 255);;
   font-size: 27px;
   font-weight: bolder;
-  text-shadow: 4px 2px black;
+  text-shadow: 2px 2px black;
 }
 
 .titulo-artista{
@@ -192,7 +189,7 @@ text-shadow: 4px 2px black;
   font-size: 27px;
   font-weight: bolder;
   color: rgb(255 255 255);
-  text-shadow: 4px 2px black;
+  text-shadow: 2px 2px black;
   font-family: 'Roboto', sans-serif;
 }
 
