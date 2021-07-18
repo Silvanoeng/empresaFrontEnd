@@ -50,6 +50,9 @@ a.menu-botao:hover {
     font-family: sans-serif;
     background-image: url("../img/J25.jpg");
   }
+  #logo {
+    font-family: "Limelight", cursive;
+  }
   
   #form {
     padding: 50px;
