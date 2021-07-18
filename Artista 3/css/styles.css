@@ -90,7 +90,6 @@ main{
 .box.a{
     width: 407px;
     height: 588px;
-    border-radius: 21px;
     display: flex;
     flex-direction: column;
     margin-top: -36px;
@@ -125,10 +124,10 @@ text-shadow: 2px 2px black;
     width: 233px;
     height: 100px;
     background-color:#bdbdbd;
-    border-radius: 6px;
+    border-radius: 1rem;
     margin-top: 44px;
     margin-right: 2px;
-    border: 2px solid rgb(83, 83, 83);
+    border: 2px solid rgb(0, 0, 0);
     flex-direction: column;
     align-content: center;
     justify-content: flex-start;
@@ -157,10 +156,10 @@ text-shadow: 2px 2px black;
 .box.b{
   width: 488px;
   height: 274px;
-  border-radius: 21px;
+  border-radius: 1rem;
   display: flex;
   flex-direction: column;
-  border: 7px solid black;
+  border: 3px solid black;
   margin-top: 47px;
   padding: 23px;
   text-align: justify;
@@ -196,10 +195,10 @@ text-shadow: 2px 2px black;
 .box.c{
     width: 480px;
     height: 200px;
-    border-radius: 21px;
+    border-radius: 1rem;
     display: flex;
     flex-direction: row;
-    border: 7px solid black;
+    border: 3px solid black;
     margin-bottom: 65px;
     padding: 23px;
     text-align: justify;
@@ -228,8 +227,12 @@ footer {
     background: black;
     color: white;
     text-align: center;
-    height: 181px;
+    height: 79px;
     flex-direction: row;
     align-content: space-around;
   
+}
+
+footer h2{
+  font-size: 18px;
 }
