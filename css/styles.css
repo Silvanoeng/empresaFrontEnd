@@ -91,7 +91,12 @@ a.menu-botao:hover {
   width: 100%;
   height: calc(100vh - 400px);
 }
-
+#artista{
+  background-image: url("../img/fundo\ imagem\ site.jpg")
+}
+#albuns{
+  background-image: url("../img/fundo\ imagem\ site.jpg")
+}
 .grupos {
   margin-top: 60px;
   display: grid;
@@ -138,16 +143,22 @@ footer {
   bottom: 0;
 }
 
-.d {
+.d1 {
   color: black;
   text-align: center;
   padding: 10%;
   font-size: 1.5rem;
   margin-left: 1.5rem;
-  font-family: "Days One", sans-serif;
+  font-family: "Arial", sans-serif;
   display: block;
-  font-size: 2.7rem;
   max-width: max-content;
+}
+.d2{
+  background-color: grey;
+  padding: 50px;
+  border-radius: 2rem;
+  font-size: 2.7rem;
+  width: 800px;
 }
 
 .tnp-email {
