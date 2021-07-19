@@ -25,7 +25,7 @@
             <ul class="menu-top">
                 <li><a class="menu-botao" href="#artistas">Artistas</a></li>
                 <li><a class="menu-botao" href="#albuns">Albuns</a></li>
-                <li><a class="menu-botao" href="#artistas">Vinil</a></li>
+                <li><a class="menu-botao" href="#">Vinil</a></li>
                 <li><a class="menu-botao" href="#contatos">Contato</a></li>
                 <li><a class="menu-botao" href="./logar/index.html" target="black">Conecte-se</a></li>
             </ul>
@@ -35,10 +35,17 @@
     </div>
     <main id="main">
         <div id="banner1">
+            <main>
+                <section id="flex-container">
+                    <article class="abertura">
+                        <h1>J² Rhapsody</h1>   
+                    </article>
+                </section>
+            </main>
         </div>
         <h2 id="artistas">Artistas</h2>
         <div class="grupos">
-            
+
             <div class="capa">
                 <a href="./Artista 1/artista1.html" target="black">
                     <img src="./img/imagem 1.png" alt="artista 1">
@@ -81,8 +88,8 @@
         <!-- <div id="banner1">
         </div> -->
         <h2 id="albuns">Albuns</h2>
-        <div  class="grupos">
-            
+        <div id="grupo-albuns" class="grupos">
+
             <div class="capa">
                 <a href="./Artista 7/artista7.html" target="black">
                     <img src="./img/imagem 7.png" alt="artista 7">
@@ -120,95 +127,103 @@
             </div>
         </div>
     </main>
-    <div id="banner2">
-        <div class="d1">
-            <div class="d2">
-                <p>Cadastre-se e receba nossas novidades em primeira mão!</p>
 
-                <div>
+    <div id="banner2">
+        <main>
+            <section id="flex-container">
+                <article class="cadastro">
+                    <h4>Cadastre-se e receba nossas novidades em primeira mão!</h4>
                     <form>
-                        <input type="hidden" name="nr" value="widget-minimal">
                         <input class="tnp-email" type="email" required="" name="ne" value="" placeholder=" E-mail ">
                         <input class="button" type="submit" value="Inscreva-se">
                     </form>
-                </div>
-            </div>
-        </div>
+
+                </article>
+            </section>
+        </main>
     </div>
-    <div id="contatos" class="redes">
-        <div class="titulo">
-            <p>Created by:</p>
-
-            <ul class="nomes">
-                <li><a class="rs" target="_black">Arthur</a>
-                    <a href="" target="_blank">
-                        <img class="fvlink" src="./img/linkedin.png" alt="">
-                    </a>
-                    <a href="https://github.com/arthurFL0" target="_blank">
-                        <img class="fvlink" src="./img/github.png" alt="">
-                    </a>
-                </li>
-                <li><a class="rs">Henrique</a>
-                    <a href="https://br.linkedin.com/in/henrique-santantonio-de-paula-25ab0315b" target="_blank">
-                        <img class="fvlink" src="./img/linkedin.png" alt="">
-                    </a>
-                    <a href="https://github.com/HenriqueSantantonio" target="_blank">
-                        <img class="fvlink" src="./img/github.png" alt="">
-                    </a>
-                </li>
-                <li></li><a class="rs">James</a>
-                <a href="https://www.linkedin.com/in/m-james-souza/" target="_blank">
-                    <img class="fvlink" src="./img/linkedin.png" alt="">
+    <main id="contatos">
+        <h3>Created by:</h3>
+        <section id="flex-container">
+            <article class="nome">
+                <h4>Arthur</h4>
+                <a href="#" target="blank">
+                    <img src="./img/linkedin.png" alt="linkedin">
                 </a>
-
-                <a href="https://github.com/mjames-souza" target="_blank">
-                    <img class="fvlink" src="./img/github.png" alt="">
-                </a></li>
-                <li></li><a class="rs">José</a>
-                <a href="https://www.linkedin.com/in/jos%C3%A9-ramos-carvalho-neto/" target="_blank">
-                    <img class="fvlink" src="./img/linkedin.png" alt="">
+                <a href="https://github.com/arthurFL0" target="blank">
+                    <img src="./img/github.png" alt="github">
                 </a>
-
-                <a href="https://github.com/JoseRCN" target="_blank">
-                    <img class="fvlink" src="./img/github.png" alt="">
-                </a></li>
-                <li><a class="rs">Pedro</a>
-                    <a href="" target="_blank">
-                        <img class="fvlink" src="./img/linkedin.png" alt="">
-                    </a>
-                    <a href="https://github.com/pedrobergamasco" target="_blank">
-                        <img class="fvlink" src="./img/github.png" alt="">
-                    </a>
-                </li>
-                <li><a class="rs">Ricardo</a>
-                    <a href="" target="_blank">
-                        <img class="fvlink" src="./img/linkedin.png" alt="">
-                    </a>
-                    <a href="https://github.com/ricfreitas13" target="_blank">
-                        <img class="fvlink" src="./img/github.png" alt="">
-                    </a>
-                </li>
-                <li><a class="rs">Silvano</a>
-                    <a href="https://www.linkedin.com/in/silvano-araujo-pereira-0616083b/" target="_blank">
-                        <img class="fvlink" src="./img/linkedin.png" alt="">
-                    </a>
-                    <a href="https://github.com/Silvanoeng" target="_blank">
-                        <img class="fvlink" src="./img/github.png" alt="">
-                    </a>
-                </li>
-                <li><a class="rs">Yasmin</a>
-                    <a href="" target="_blank">
-                        <img class="fvlink" src="./img/linkedin.png" alt="">
-                    </a>
-                    <a href="https://github.com/YasminTrentini" target="_blank">
-                        <img class="fvlink" src="./img/github.png" alt="">
-                    </a>
-                </li>
-            </ul>
-        </div>
+            </article>
+            <article class="nome">
+                <h4>Henrique</h4>
+                <a href="https://br.linkedin.com/in/henrique-santantonio-de-paula-25ab0315b" target="blank">
+                    <img src="./img/linkedin.png" alt="linkedin">
+                </a>
+                <a href="https://github.com/HenriqueSantantonio" target="blank">
+                    <img src="./img/github.png" alt="github">
+                </a>
+            </article>
+            <article class="nome">
+                <h4>James</h4>
+                <a href="https://www.linkedin.com/in/m-james-souza/" target="blank">
+                    <img src="./img/linkedin.png" alt="linkedin">
+                </a>
+                <a href="https://github.com/mjames-souza" target="blank">
+                    <img src="./img/github.png" alt="github">
+                </a>
+            </article>
+            <article class="nome">
+                <h4>José</h4>
+                <a href="https://www.linkedin.com/in/jos%C3%A9-ramos-carvalho-neto/" target="blank">
+                    <img src="./img/linkedin.png" alt="linkedin">
+                </a>
+                <a href="https://github.com/JoseRCN" target="blank">
+                    <img src="./img/github.png" alt="github">
+                </a>
+            </article>
+            <article class="nome">
+                <h4>Pedro</h4>
+                <a href="#" target="blank">
+                    <img src="./img/linkedin.png" alt="linkedin">
+                </a>
+                <a href="https://github.com/pedrobergamasco" target="blank">
+                    <img src="./img/github.png" alt="github">
+                </a>
+            </article>
+            <article class="nome">
+                <h4>Ricardo</h4>
+                <a href="#" target="blank">
+                    <img src="./img/linkedin.png" alt="linkedin">
+                </a>
+                <a href="https://github.com/ricfreitas13" target="blank">
+                    <img src="./img/github.png" alt="github">
+                </a>
+            </article>
+            <article class="nome">
+                <h4>Silvano</h4>
+                <a href="https://www.linkedin.com/in/silvano-araujo-pereira-0616083b/" target="blank">
+                    <img src="./img/linkedin.png" alt="linkedin">
+                </a>
+                <a href="https://github.com/Silvanoeng" target="blank">
+                    <img src="./img/github.png" alt="github">
+                </a>
+            </article>
+            <article class="nome">
+                <h4>Yasmin</h4>
+                <a href="#" target="_blank">
+                    <img src="./img/linkedin.png" alt="linkedin">
+                </a>
+                <a href="https://github.com/YasminTrentini" target="blank">
+                    <img src="./img/github.png" alt="github">
+                </a>
+            </article>
+        </section>
+    </main>
+    <div>
         <footer id="footer">
-            <h2>J²Rhapsody - Todos os direitos reservados</h2>
+            <h2>J² Rhapsody - Todos os direitos reservados</h2>
         </footer>
+    </div>
 
 </body>
 

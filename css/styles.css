@@ -9,7 +9,7 @@
 
 body {
   background-color: black;
-  font-family: "Roboto", Arial, sans-serif;
+  font-family: Arial, "Roboto", sans-serif;
 }
 
 #header {
@@ -29,7 +29,7 @@ body {
 }
 
 .menu-top li {
-  margin-left: 4px;
+  margin-left: 2px;
 }
 
 .menu-top li a {
@@ -39,7 +39,6 @@ body {
 
 a.menu-botao {
   color: white;
-  font-family: "Roboto", sans-serif;
   padding: 10px 30px;
   border-radius: 9px;
   font-weight: bold;
@@ -59,12 +58,10 @@ a.menu-botao:hover {
 #main {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
 
 #banner1 {
-  background-image: url(../img/banner\ 2.jpg);
+  background-image: url(../img/image.png);
   background-attachment: fixed;
   background-position: top;
   background-repeat: no-repeat;
@@ -75,13 +72,27 @@ a.menu-botao:hover {
   align-items: center;
   flex-direction: column;
   width: 100%;
-  height: calc(100vh - 90px);
+  height: calc(100vh - 80px);
+}
+article.abertura {
+  justify-content: center;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  font-size: 2rem;
+  max-width: 100rem;
+  min-width: 1rem;
+  font-family: "Limelight", cursive;
+  text-align: center;
+  font-size: 10rem;
+  color: white;
 }
 
+
 #banner2 {
-  background-image: url(../img/banner\ 2.jpg);
+  background-image: url(../img/image.png);
   background-attachment: fixed;
-  background-position: top;
+  background-position:top;
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -89,22 +100,32 @@ a.menu-botao:hover {
   align-items: center;
   flex-direction: column;
   width: 100%;
-  height: calc(100vh - 400px);
+  height: calc(100vh - 300px);
 }
-#artista{
-  background-image: url("../img/fundo\ imagem\ site.jpg")
+
+#artistas {
+  background-image: url("../img/fundo\ imagem\ site.jpg");
+  padding-top: 5rem;
+  padding-bottom: 1rem;
+  text-align: center;
+  padding-left: 4%;
+  font-size: 2.2rem;
 }
-#albuns{
-  background-image: url("../img/fundo\ imagem\ site.jpg")
+#albuns {
+  background-image: url("../img/fundo\ imagem\ site.jpg");
+  padding-top: 7rem;
+  padding-bottom: 1rem;
+  text-align: center;
+  padding-left: 4%;
+  font-size: 2.2rem;
 }
 .grupos {
-  margin-top: 60px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  justify-content: space-around;
-  padding-top: 100px;
-  padding-bottom: 100px;
   background-image: url("../img/fundo\ imagem\ site.jpg");
+}
+#grupo-albuns.grupos {
+  padding-bottom: 7rem;
 }
 
 .capa a {
@@ -129,129 +150,171 @@ a.menu-botao:hover {
   transform: scale(1.1);
 }
 
-footer {
+#flex-container {
   display: flex;
-  justify-content: space-evenly;
-  padding: 20px;
-  margin-top: 100px;
   flex-wrap: wrap;
-  background: black;
-  color: white;
-  height: 181px;
-  flex-direction: row;
-  align-content: space-around;
-  bottom: 0;
+  justify-content: space-between;
+}
+article.cadastro {
+  justify-content: center;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  font-size: 2rem;
+  max-width: 45rem;
+  min-width: 10rem;
+  background-color: grey;
+  padding: 3rem;
+  border-radius: 1rem;
 }
 
-.d1 {
-  color: black;
-  text-align: center;
-  padding: 10%;
-  font-size: 1.5rem;
-  margin-left: 1.5rem;
-  font-family: "Arial", sans-serif;
+.cadastro h4{
   display: block;
-  max-width: max-content;
-}
-.d2{
-  background-color: grey;
-  padding: 50px;
-  border-radius: 2rem;
-  font-size: 2.7rem;
-  width: 800px;
+  color: white;
 }
 
 .tnp-email {
-  width: 350px;
-  height: 50px;
-  font-family: "Days One", sans-serif;
+  font-size: 1.2rem;
+  width: 25rem;
+  height: 2.5rem;
   background-color: white;
-  border-radius: 10px;
+  border-radius: 0.5rem;
   border: none;
 }
 
 .button {
   margin: 0px 18px 0px 0px;
-  width: 150px;
-  height: 50px;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  width: 8rem;
+  height: 2.5rem;
   background-color: #f0f2f2;
-  font-family: "Arial", sans-serif;
   text-decoration: black;
-  border-radius: 10px;
+  border-radius: 0.5rem;
   border: none;
 }
 
 .button:hover {
   transition: all 1s;
   cursor: pointer;
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
-/* nomes e linkedin * Redes */
-.redes {
-  text-align: right;
-  grid-column: 1 / 3;
-  display: flex;
-  justify-content: right;
-  align-items: flex;
+#contatos {
+  background-image: url("../img/fundo\ imagem\ site.jpg");
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+#contatos h3 {
+  padding-bottom: 1rem;
+}
+
+article.nome {
+  justify-content: center;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
   font-size: 1.5rem;
-  justify-content: right;
-  max-width: max-content;
+  max-width: 15rem;
+  min-width: 10rem;
+  
 }
-
-.redes a {
-  font-size: 1.5rem;
-  margin-left: 2rem;
-  text-align: right;
-  display: inline;
-  max-width: max-content;
+.nome {
+  width: 14rem;
+  
 }
-
-.titulo {
-  padding: 4rem;
-  text-align: right;
-  display: block;
-  max-width: max-content;
+.nome a {
+  width: 100%;
+  text-decoration: none;
 }
-
-.titulo p {
-  color: #fff;
-  display: table-footer-group;
-  font-size: 3rem;
-  padding: 0 10%;
-  max-width: max-content;
-}
-
-.rs {
-  color: white;
-  font-family: "Roboto", sans-serif;
-  padding: 10% 2rem;
-  border-radius: 1rem;
+.nome img {
+  width: 3rem;
   transition: all 0.3s ease-in-out;
-  max-width: max-content;
+  z-index: 2;
 }
-
-.fvlink {
-  height: 1.5rem;
-  width: 1.5rem;
-  max-width: max-content;
-}
-
-.fvlink:hover {
-  transition: all 1s;
-  cursor: pointer;
-  -webkit-transform: scale(1.2);
+.nome img:hover {
   transform: scale(1.2);
 }
+.nome h4{
+  display: block;
+  color: black;
+}
+footer #footer {
+  display: flex;
+  position: sticky;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  background-color: black;
+  color: white;
+  z-index: 4;
+}
+#footer h2{
+  color: white;
+  padding: 20px;
+  font-family: "Arial", cursive;
+  font-size: 14px;
+  text-align: center;
+}
+
 @media (max-width: 689px) {
-  .card-grid {
+  .grupos {
     grid-template-columns: repeat(1, 1fr);
   }
+  article.abertura {
+    font-size: 3rem;
+  }
+  #footer h2 {
+  font-size: 1.2rem;
+  }
+  #logo {
+    font-size: 1.2rem;
+    }
+  .menu-botao {
+    font-size: 0.8rem;
+  }
+  article.cadastro {
+    font-size: 1rem;
+    max-width: 25rem;
+    min-width: 5rem;
+    padding: 1rem;
+    border-radius: .25rem;
+  }  
+  .tnp-email {
+    font-size: 0.6rem;
+    width: 13rem;
+    height: 1.25rem;
+    border-radius: 0.25rem;
+  }
+  
+  .button {
+    margin: 0px 9px 0px 0px;
+    margin-top: 0.5rem;
+    font-size: 0.6rem;
+    width: 4rem;
+    height: 1.25rem;
+    border-radius: 0.25rem;
+  }
+  .capa img {
+    border: 2px solid white;
+    border-radius: 1rem;
+  }
+
 }
 
 @media (min-width: 690px) and (max-width: 1045px) {
-  .card-grid {
+  .grupos {
     grid-template-columns: repeat(2, 1fr);
   }
+  article.abertura {
+    font-size: 5rem;
+  }
 }
+@media (min-width: 1045px) and (max-width: 1350px) {
+    article.abertura {
+    font-size: 7rem;
+  }
+}
+
